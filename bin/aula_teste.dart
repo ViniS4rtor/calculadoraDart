@@ -1,6 +1,7 @@
 import 'dart:io';
 
 void main(List<String> arguments) {
+  print('---Calculadora Simples---');
   while (true) {
     print('Digite o número 1 (ou "sair" para encerrar):');
     var entrada1 = stdin.readLineSync();
