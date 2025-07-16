@@ -30,7 +30,7 @@ void main(List<String> arguments) {
         operacao != '-' &&
         operacao != '*' &&
         operacao != '/') {
-      print('Operação inválida. Digitou duas operações ou mais.');
+      print('Operação inválida. Digite apenas uma operação.');
       continue;
     }
 
