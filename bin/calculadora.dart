@@ -75,5 +75,5 @@ void main() {
     historico.forEach(print); // Mostra o histórico de operações
     print('-----------------------------');
   }
-  print('Calculadora encerrada.');
+  print('\nCalculadora encerrada.');
 }
