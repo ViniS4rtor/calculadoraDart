@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(List<String> arguments) {
+void main() {
   print('---Calculadora Simples---');
   while (true) {
     print('Digite o número 1 (ou "sair" para encerrar):');
