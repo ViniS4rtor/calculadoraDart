@@ -66,9 +66,9 @@ void main() {
 
     // Exibe o resultado e salva no histórico, se houver resultado
     if (resultado != null) {
-      String operacaoStr = '$num1 $operacao $num2 = $resultado';
+      String operacaoResultado = '$num1 $operacao $num2 = $resultado';
       print('Resultado: $resultado');
-      historico.add(operacaoStr);
+      historico.add(operacaoResultado);
     }
     print('-----------------------------');
     print('Histórico:');
